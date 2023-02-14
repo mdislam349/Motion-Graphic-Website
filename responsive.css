@@ -1,0 +1,179 @@
+@media (max-width:500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width:750px) {
+
+  .left-footer,
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:600px) {
+
+  html {
+    font-size: 62.25%;
+  }
+
+  .features {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width:700px) {
+
+  .recent-header {
+    grid-template-columns: 1fr;
+  }
+
+  .work-text {
+    margin-bottom: 1rem;
+  }
+
+  .gallery-1,
+  .gallery-2,
+  .gallery-3 {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .gallery-3 {
+    width: 100%;
+    transform: none;
+  }
+
+  .recent-img-box {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .text-right {
+    margin-top: 3rem;
+    text-align: left;
+  }
+
+}
+
+@media (max-width:770px) {
+  .navbar {
+    display: none;
+  }
+
+}
+
+
+@media (max-width:900px) {
+  .gallery-2 {
+    margin-bottom: 3rem;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .hero-text-box {
+    width: 80%;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    border: none;
+    height: auto;
+    padding-right: 13rem;
+  }
+
+  .card-box {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .gif {
+    margin-top: 0;
+  }
+
+  .ceo-box {
+    margin: 0;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  .hero-text-box {
+    margin: 0;
+    padding: 0;
+  }
+
+  .primary-heading {
+    margin-bottom: 1rem;
+  }
+
+  .hero-text {
+    margin-bottom: 1rem;
+  }
+
+  .about {
+    grid-template-columns: 2fr;
+    row-gap: 4rem;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+  }
+
+  .f-1,
+  .f-2,
+  .f-3,
+  .f-4 {
+    padding: 0;
+    height: auto;
+    border: none;
+  }
+
+  .contact {
+    margin: 0;
+    gap: 3rem;
+  }
+
+}
+
+
+@media (max-width: 1400px) {
+  .hero-text-box {
+    margin: 0;
+  }
+}
